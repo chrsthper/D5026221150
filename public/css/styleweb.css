@@ -1,0 +1,203 @@
+
+/* Navbar */
+.navbar-brand {
+    font-family: Viga;
+    font-size: 32px;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+
+
+/* Jumbotron */
+.jumbotron {
+    background-image: url(img/20230729_170938.jpg);
+    background-size: cover;
+    height: 640px;
+}
+
+.jumbotron .display-4 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 150px;
+    font-size: 30px;
+    font-weight: 350;
+    position: relative;
+    z-index: 1;
+}
+
+.jumbotron .display-4 span {
+    font-weight: 500;
+}
+/* End Jumbotron */
+
+
+/* others */
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+    font-weight: 600;
+}
+
+
+/* About Me Section */
+.section-about h2 {
+    font-family: Viga;
+    font-size: 40px;
+}
+
+.section-about {
+    background-color: #ffffff;
+    padding: 50px 0; /* ukuran padding */
+}
+
+.styled-heading {
+    text-align: center;
+    font-weight: 600;
+}
+
+.description-box {
+    background-color: #f7f7f7;
+    padding: 20px; /* padding description box */
+    border: 2px solid #333; /* warna border */
+    border-radius: 5px; /* rounded corners */
+    margin: 20px 0; /* margin untuk spacing */
+}
+
+.about-item p {
+    text-align: justify;
+}
+/* End About Me Section */
+
+
+/* Portfolio Section */
+.section-portfolio {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #e0e0e0;
+    padding: 50px 0;
+}
+
+.section-portfolio h2 {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-family: Viga;
+}
+
+.section-portfolio p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: rgb(0, 0, 0);
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.portfolio-item img:hover {
+    transform: scale(1.05);
+  }
+/* End Portfolio Section */
+
+
+/* Contact Section*/
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+    font-weight: 600;
+    background-color: #0b63dc; /* warna background tombol */
+    color: #fff; /* warna tulisan di tombol */
+    padding: 15px 30px; /* padding untuk tombol */
+    transition: background-color 0.3s; /* transisi */
+}
+
+.tombol:hover {
+    background-color: #349b11; /* warna kalau hover*/
+}
+
+.section-contact {
+    background-color: aliceblue;
+    padding: 50px 0;
+}
+
+.section-contact h2 {
+    font-family: Viga;
+}
+/* End Contact Section*/
+
+
+/* Experience Section */
+.section-experience {
+    padding: 50px 0;
+    background-color: #f2f2f2;
+}
+
+.section-experience h2 {
+    font-size: 40px;
+    color: #333; /* warna teks heading */
+    font-family: Viga;
+}
+
+.section-experience p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #555; /* warna teks description */
+}
+
+.experience-item {
+    border: 2px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+
+.experience-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.date {
+    color: #777; /* warna teks date */
+    font-style: italic;
+}
+/* End Experience Section */
+
+
+/* Desktop Version*/
+
+@media (min-width: 992px) {
+    .navbar-brand, .nav-link {
+        color: rgb(255, 255, 255) !important;
+        text-shadow: r;
+    }
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0b63dc;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    .jumbotron {
+        margin-top: -75px;
+    }
+}

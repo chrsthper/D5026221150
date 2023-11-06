@@ -1,0 +1,46 @@
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            text-align: center;
+        }
+
+        .kotak {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 10px;
+            font-style: inherit;
+            font-weight: bold;
+        }
+
+        h1 {
+            color: #000000;
+            font-size: 20px;
+            font-style: inherit;
+            
+        }
+
+        .link {
+            display: block;
+            margin: 10px 8px;
+            text-decoration: none;
+            padding: 15px;
+            background-color: #272f39;
+            color: #fff;
+            border-radius: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .link:hover {
+            transform: scale(1.03);
+        }
+
+        .logo {
+            width: 150px;
+            height: 150px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+        }

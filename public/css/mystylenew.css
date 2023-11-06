@@ -1,0 +1,16 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.pembuka {
+font-size: medium;
+float: left;
+width: 20%;
+border-style: solid;
+}
+
+.reff{
+    width: 20%;
+    border-style: solid;
+
+}

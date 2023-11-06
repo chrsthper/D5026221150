@@ -1,0 +1,23 @@
+h3 {
+    color :rgb(119, 105, 44) ;
+    text-align: center;
+}
+
+p {
+    color : rgba(83, 40, 116, 0.511) ;
+    text-align: center;
+}
+
+body {
+    background-color: beige;
+}
+
+.ratakanan {
+    text-align: center;
+    color:rgb(58, 36, 10);
+    font-weight: normal;
+}
+
+.kotaku1 {
+    border-style: groove;
+}
