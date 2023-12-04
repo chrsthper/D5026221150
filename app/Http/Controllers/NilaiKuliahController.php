@@ -26,7 +26,7 @@ class NilaiKuliahController extends Controller
 return view('tambah2');
 
 }
-
+//
 // method untuk insert data ke table nilaikuliah
 public function store(Request $request)
 {
