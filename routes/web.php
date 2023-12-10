@@ -73,5 +73,10 @@ Route::get('/nilaikuliah','App\Http\Controllers\nilaikuliahController@index2');
 Route::get('/nilaikuliah/tambah2','App\Http\Controllers\nilaikuliahController@tambah2');
 Route::post('/nilaikuliah/store','App\Http\Controllers\nilaikuliahController@store');
 
+//Bank
+Route::get('/bank','App\Http\Controllers\BankController@index3');
+Route::get('/bank/tambah3','App\Http\Controllers\BankController@tambah3');
+Route::post('/bank/store','App\Http\Controllers\BankController@store');
+
 
 
