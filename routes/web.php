@@ -78,5 +78,9 @@ Route::get('/bank','App\Http\Controllers\BankController@index3');
 Route::get('/bank/tambah3','App\Http\Controllers\BankController@tambah3');
 Route::post('/bank/store','App\Http\Controllers\BankController@store');
 
+//Kategori
+Route::get('/kategori','App\Http\Controllers\KategoriController@index4');
+Route::post('/kategori/hasil', 'App\Http\Controllers\KategoriController@hasil');
+
 
 
